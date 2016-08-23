@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		192F3C9A1D5099F7009E2D9B /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		192F3C9A1D5099F7009E2D9B /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192F3C9E1D5099F7009E2D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		192F3CA01D5099F7009E2D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		192F3CA11D5099F7009E2D9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				196E3C4E1D5B396300088A99 /* MapKit.framework */,
-				192F3C9C1D5099F7009E2D9B /* FoodPin */,
+				192F3C9C1D5099F7009E2D9B /* Restaurants */,
 				192F3C9B1D5099F7009E2D9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,12 +77,12 @@
 		192F3C9B1D5099F7009E2D9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				192F3C9A1D5099F7009E2D9B /* FoodPin.app */,
+				192F3C9A1D5099F7009E2D9B /* Restaurants.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		192F3C9C1D5099F7009E2D9B /* FoodPin */ = {
+		192F3C9C1D5099F7009E2D9B /* Restaurants */ = {
 			isa = PBXGroup;
 			children = (
 				192F3CA01D5099F7009E2D9B /* AppDelegate.h */,
@@ -110,6 +110,7 @@
 				19BF78AE1D5C95B400082E7E /* AddRestaurantController.m */,
 				199DCD291D631D48008BEBB2 /* FoodPin.xcdatamodeld */,
 			);
+			name = Restaurants;
 			path = FoodPin;
 			sourceTree = "<group>";
 		};
@@ -124,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		192F3C991D5099F7009E2D9B /* FoodPin */ = {
+		192F3C991D5099F7009E2D9B /* Restaurants */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 192F3CB11D5099F7009E2D9B /* Build configuration list for PBXNativeTarget "FoodPin" */;
+			buildConfigurationList = 192F3CB11D5099F7009E2D9B /* Build configuration list for PBXNativeTarget "Restaurants" */;
 			buildPhases = (
 				192F3C961D5099F7009E2D9B /* Sources */,
 				192F3C971D5099F7009E2D9B /* Frameworks */,
@@ -136,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = FoodPin;
+			name = Restaurants;
 			productName = FoodPin;
-			productReference = 192F3C9A1D5099F7009E2D9B /* FoodPin.app */;
+			productReference = 192F3C9A1D5099F7009E2D9B /* Restaurants.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -160,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 192F3C951D5099F7009E2D9B /* Build configuration list for PBXProject "FoodPin" */;
+			buildConfigurationList = 192F3C951D5099F7009E2D9B /* Build configuration list for PBXProject "Restaurants" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				192F3C991D5099F7009E2D9B /* FoodPin */,
+				192F3C991D5099F7009E2D9B /* Restaurants */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		192F3C951D5099F7009E2D9B /* Build configuration list for PBXProject "FoodPin" */ = {
+		192F3C951D5099F7009E2D9B /* Build configuration list for PBXProject "Restaurants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				192F3CAF1D5099F7009E2D9B /* Debug */,
@@ -348,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		192F3CB11D5099F7009E2D9B /* Build configuration list for PBXNativeTarget "FoodPin" */ = {
+		192F3CB11D5099F7009E2D9B /* Build configuration list for PBXNativeTarget "Restaurants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				192F3CB21D5099F7009E2D9B /* Debug */,
