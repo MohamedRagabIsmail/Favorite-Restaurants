@@ -15,12 +15,12 @@
 		192F3CB61D509B87009E2D9B /* RestaurantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192F3CB51D509B87009E2D9B /* RestaurantTableViewController.m */; };
 		192F3CB91D50A907009E2D9B /* RestaurantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 192F3CB81D50A907009E2D9B /* RestaurantTableViewCell.m */; };
 		1934381B1D5220460083C525 /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1934381A1D5220460083C525 /* RestaurantDetailViewController.m */; };
-		194F9B591D59E6B900610960 /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194F9B581D59E6B900610960 /* ReviewViewController.m */; };
-		195F90131D534189003E65CB /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 195F90121D534189003E65CB /* Restaurant.m */; };
 		195F90161D5360C9003E65CB /* RestaurantDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 195F90151D5360C9003E65CB /* RestaurantDetailTableViewCell.m */; };
 		196E3C4F1D5B396300088A99 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196E3C4E1D5B396300088A99 /* MapKit.framework */; };
 		196E3C521D5B424300088A99 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196E3C511D5B424300088A99 /* MapViewController.m */; };
 		199DCD2B1D631D48008BEBB2 /* FoodPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 199DCD291D631D48008BEBB2 /* FoodPin.xcdatamodeld */; };
+		19AB8D311D6C687700FD4A55 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AB8D2E1D6C687700FD4A55 /* Restaurant.m */; };
+		19AB8D321D6C687700FD4A55 /* ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AB8D301D6C687700FD4A55 /* ReviewViewController.m */; };
 		19BF78AF1D5C95B400082E7E /* AddRestaurantController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BF78AE1D5C95B400082E7E /* AddRestaurantController.m */; };
 /* End PBXBuildFile section */
 
@@ -39,16 +39,16 @@
 		192F3CB81D50A907009E2D9B /* RestaurantTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantTableViewCell.m; sourceTree = "<group>"; };
 		193438191D5220460083C525 /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
 		1934381A1D5220460083C525 /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
-		194F9B571D59E6B900610960 /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReviewViewController.h; path = ../ReviewViewController.h; sourceTree = "<group>"; };
-		194F9B581D59E6B900610960 /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReviewViewController.m; path = ../ReviewViewController.m; sourceTree = "<group>"; };
-		195F90111D534189003E65CB /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Restaurant.h; path = ../Restaurant.h; sourceTree = "<group>"; };
-		195F90121D534189003E65CB /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Restaurant.m; path = ../Restaurant.m; sourceTree = "<group>"; };
 		195F90141D5360C9003E65CB /* RestaurantDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailTableViewCell.h; sourceTree = "<group>"; };
 		195F90151D5360C9003E65CB /* RestaurantDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailTableViewCell.m; sourceTree = "<group>"; };
 		196E3C4E1D5B396300088A99 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		196E3C501D5B424300088A99 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		196E3C511D5B424300088A99 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		199DCD2A1D631D48008BEBB2 /* FoodPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodPin.xcdatamodel; sourceTree = "<group>"; };
+		19AB8D2D1D6C687700FD4A55 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		19AB8D2E1D6C687700FD4A55 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		19AB8D2F1D6C687700FD4A55 /* ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewViewController.h; sourceTree = "<group>"; };
+		19AB8D301D6C687700FD4A55 /* ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewViewController.m; sourceTree = "<group>"; };
 		19BF78AD1D5C95B400082E7E /* AddRestaurantController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRestaurantController.h; sourceTree = "<group>"; };
 		19BF78AE1D5C95B400082E7E /* AddRestaurantController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRestaurantController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,12 +98,12 @@
 				192F3CB81D50A907009E2D9B /* RestaurantTableViewCell.m */,
 				193438191D5220460083C525 /* RestaurantDetailViewController.h */,
 				1934381A1D5220460083C525 /* RestaurantDetailViewController.m */,
-				195F90111D534189003E65CB /* Restaurant.h */,
-				195F90121D534189003E65CB /* Restaurant.m */,
 				195F90141D5360C9003E65CB /* RestaurantDetailTableViewCell.h */,
 				195F90151D5360C9003E65CB /* RestaurantDetailTableViewCell.m */,
-				194F9B571D59E6B900610960 /* ReviewViewController.h */,
-				194F9B581D59E6B900610960 /* ReviewViewController.m */,
+				19AB8D2D1D6C687700FD4A55 /* Restaurant.h */,
+				19AB8D2E1D6C687700FD4A55 /* Restaurant.m */,
+				19AB8D2F1D6C687700FD4A55 /* ReviewViewController.h */,
+				19AB8D301D6C687700FD4A55 /* ReviewViewController.m */,
 				196E3C501D5B424300088A99 /* MapViewController.h */,
 				196E3C511D5B424300088A99 /* MapViewController.m */,
 				19BF78AD1D5C95B400082E7E /* AddRestaurantController.h */,
@@ -200,10 +200,10 @@
 				199DCD2B1D631D48008BEBB2 /* FoodPin.xcdatamodeld in Sources */,
 				195F90161D5360C9003E65CB /* RestaurantDetailTableViewCell.m in Sources */,
 				19BF78AF1D5C95B400082E7E /* AddRestaurantController.m in Sources */,
-				194F9B591D59E6B900610960 /* ReviewViewController.m in Sources */,
+				19AB8D311D6C687700FD4A55 /* Restaurant.m in Sources */,
 				196E3C521D5B424300088A99 /* MapViewController.m in Sources */,
-				195F90131D534189003E65CB /* Restaurant.m in Sources */,
 				1934381B1D5220460083C525 /* RestaurantDetailViewController.m in Sources */,
+				19AB8D321D6C687700FD4A55 /* ReviewViewController.m in Sources */,
 				192F3CB61D509B87009E2D9B /* RestaurantTableViewController.m in Sources */,
 				192F3CA21D5099F7009E2D9B /* AppDelegate.m in Sources */,
 				192F3C9F1D5099F7009E2D9B /* main.m in Sources */,
